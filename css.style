@@ -1,0 +1,50 @@
+/* Zera as configurações iniciais do navegador para alinhar melhor */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o fundo e a fonte do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estiliza a caixa principal */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estiliza o título */
+h1 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Estiliza o botão */
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão */
+.botao:hover {
+    background-color: #2980b9;
+}
